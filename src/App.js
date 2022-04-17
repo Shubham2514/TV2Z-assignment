@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
       <Routes>
       <Route  path='/login' element={<Login auth={()=>setUser(true)}/>}/>
-      {/* {user && <Route  path='/detail' element={<Detail user={user}/>}/>}    */}
+       <Route path='/' element={<Login auth={()=>setUser(true)}/>}/>
        <Route  path='/detail' element={<Detail user={user}/>}/>
       </Routes>
     </BrowserRouter>
