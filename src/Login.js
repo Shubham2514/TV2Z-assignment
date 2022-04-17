@@ -75,9 +75,9 @@ function Login(prop){
     </div>
     <div className="text-div">
         <span>By clicking on 'Log in' button,you are hereby agreeing to our </span>
-        <span className="bold-span">Privacy Policy</span>
+        <span className="bold-span">Privacy Policy </span>
         <span>and</span>
-        <span className="bold-span">Terms & Conditions</span>
+        <span className="bold-span"> Terms & Conditions</span>
     </div>
     <button id="login-btn" onClick={check}>LOG IN</button>
     <div className="text-div">
