@@ -63,9 +63,9 @@ function Login(prop){
     <h2>LOG IN</h2>
     <p>Enter your credentials to login to TV2Z</p>
     <div className="input-div">
-    <input id="email" type="email" value={username} onChange={(e)=>setUsername(e.target.value)}/>
+    <input id="email" type="email" placeholder="Email" value={username} onChange={(e)=>setUsername(e.target.value)}/>
     <div className="password-div">
-    <input type={passwordType} name="" id="password" value={password} onChange={((e)=>setPassword(e.target.value)) }/>
+    <input type={passwordType} name="" placeholder="Password"  id="password" value={password} onChange={((e)=>setPassword(e.target.value)) }/>
     <img src={eyeImage} id="eye" onClick={eyeHandler} alt="" />
     </div>
     </div>
